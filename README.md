@@ -8,7 +8,13 @@ Starter kit to create a Materia Addon.
 - Default addon view
 - Basic addon setup
 
-## Installation
+## Installation from NPM
+
+In your Materia application, run `yarn add @materia/addon-boilerplate`
+
+Restart Materia Designer
+
+## Installation from local files
 
 Clone this repository:
 
@@ -17,7 +23,7 @@ git clone git@github.com:thyb/materia-addon-boilerplate.git
 cd materia-addon-boilerplate
 ```
 
-Then install and build:
+Then install dependencies and build:
 
 ```
 yarn
