@@ -1,6 +1,6 @@
 # Materia - Addon Boilerplate
 
-Starter kit to become a Materia Addon creator.
+Starter kit to create a Materia Addon.
 
 ## Features
 
