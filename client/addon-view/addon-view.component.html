@@ -4,5 +4,9 @@
 		Addon successfully installed in application:
 		<strong>{{app.name || app.package}}</strong>
 	</p>
-	<button mat-button (click)="openSetup.emit()">Change your name</button>
+	<button
+		mat-raised-button
+		color="primary"
+		(click)="openSetup.emit()"
+	>Change your name</button>
 </mat-card>
