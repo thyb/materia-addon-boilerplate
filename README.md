@@ -6,7 +6,7 @@ Starter kit to create a Materia Addon.
 
 - Minimal server
 - Default addon view (Angular 5 + Angular Material)
-- Basic addon setup
+- **Custom setup dialog**
 - Build system (Rollup + TypeScript + Sass)
 
 ## Installation from NPM
