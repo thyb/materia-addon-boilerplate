@@ -26,6 +26,7 @@ export default {
         '@angular/core',
         '@angular/material',
         '@angular/cdk',
-        '@angular/platform-browser'
+		'@angular/platform-browser',
+		'@angular/forms'
     ]
 }

@@ -1,7 +1,6 @@
 
-import { Component, OnInit, NgModule, Input, Output, EventEmitter } from "@angular/core";
+import { Component, OnInit, Input, Output, EventEmitter } from "@angular/core";
 import { Addon } from "@materia/addons";
-//import { MatSnackBarModule, MatSnackBar } from '@angular/material';
 
 @Addon({
 	package: "@materia/addon-boilerplate",
