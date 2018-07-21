@@ -1,11 +1,8 @@
 
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { Addon } from '@materia/addons';
+import { AddonView } from '@materia/addons';
 
-@Addon({
-    package: '@materia/addon-boilerplate',
-    deps: []
-})
+@AddonView('@materia/addon-boilerplate')
 @Component({
     selector: 'materia-addon-boilerplate',
     templateUrl: './addon-view.component.html',

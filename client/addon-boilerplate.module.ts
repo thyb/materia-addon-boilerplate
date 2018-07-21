@@ -17,10 +17,7 @@ import { Addon } from '@materia/addons';
 import { AddonViewComponent } from './addon-view/addon-view.component';
 import { AddonSetupComponent } from './addon-setup/addon-setup.component';
 
-@Addon({
-  package: '@materia/addon-boilerplate',
-  deps: []
-})
+@Addon('@materia/addon-boilerplate')
 @NgModule({
   imports: [
     CommonModule,

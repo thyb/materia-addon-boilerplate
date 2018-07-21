@@ -22,4 +22,4 @@ fs.writeFileSync(path.join(__dirname, '..', 'dist', 'package.json'), JSON.string
     encoding: 'utf-8'
 });
 
-fs.unlink(path.join(__dirname, '..', 'dist', 'client', 'package.json'));
+fs.unlinkSync(path.join(__dirname, '..', 'dist', 'client', 'package.json'));

@@ -8,10 +8,7 @@ export interface IBoilerplateSetup {
     name: string;
 }
 
-@AddonSetup({
-    package: '@materia/addon-boilerplate',
-    deps: []
-})
+@AddonSetup('@materia/addon-boilerplate')
 @Component({
     selector: 'materia-addon-boilerplate-setup',
     templateUrl: './addon-setup.component.html',
