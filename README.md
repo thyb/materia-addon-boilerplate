@@ -43,4 +43,4 @@ and in your materia application
 npm link @materia/addon-boilerplate
 ```
 
-then add `"@materia/addon-boilerplate": "^1.0.0"` in the dependencies of the package.json - it will let Materia knows of the existance of the addon.
+then add `"@materia/addon-boilerplate": "^0.2.0"` in the dependencies of the package.json - it will let Materia knows of the existance of the addon.
