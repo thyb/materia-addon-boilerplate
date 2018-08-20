@@ -1,7 +1,7 @@
 {
   "name": "@materia/addon-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Starter kit to create a Materia Addon",
   "author": "thibaud.arnault@gmail.com",
   "license": "MIT",
   "bugs": {
