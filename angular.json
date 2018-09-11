@@ -44,5 +44,10 @@
       }
     }
   },
-  "defaultProject": "addon-boilerplate"
+  "defaultProject": "addon-boilerplate",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
