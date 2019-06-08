@@ -2,7 +2,7 @@
   "name": "@materia/addon-boilerplate",
   "version": "0.2.0",
   "description": "Starter kit to create a Materia Addon",
-  "author": "thibaud.arnault@gmail.com",
+  "author": "team@getmateria.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/thyb/materia-addon-boilerplate/issues"
