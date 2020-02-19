@@ -4,11 +4,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
-import { MatRippleModule } from '@angular/material/core';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
-import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 import { Addon } from '@materia/addons';
 
@@ -21,16 +19,13 @@ import { AddonSetupComponent } from './addon-setup/addon-setup.component';
     CommonModule,
     FormsModule,
     ReactiveFormsModule,
-    MatRippleModule,
     MatButtonModule,
-    MatSnackBarModule,
     MatCardModule,
     MatIconModule,
     MatDialogModule,
     MatInputModule
   ],
   declarations: [AddonViewComponent, AddonSetupComponent],
-  exports: [AddonViewComponent, AddonSetupComponent],
-  entryComponents: [AddonSetupComponent]
+  exports: [AddonViewComponent, AddonSetupComponent]
 })
 export class AddonBoilerplateModule {}

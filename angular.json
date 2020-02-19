@@ -17,9 +17,9 @@
           },
           "configurations": {
             "production": {
-              "project": "ng-package.prod.json"
-            ,              "tsConfig": "tsconfig.lib.prod.json"
-}
+              "project": "ng-package.prod.json",
+              "tsConfig": "tsconfig.lib.prod.json"
+            }
           }
         },
         "test": {
@@ -50,5 +50,8 @@
     "@schematics/angular:component": {
       "style": "scss"
     }
+  },
+  "cli": {
+    "analytics": "fdae333a-c7ae-45f2-a863-eb4ba4f4cd0e"
   }
 }

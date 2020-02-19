@@ -1,8 +1,9 @@
 
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter, ChangeDetectionStrategy } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
 
 import { AddonSetup } from '@materia/addons';
+import { IApp } from '@materia/interfaces';
 
 export interface IBoilerplateSetup {
     name: string;
@@ -13,11 +14,11 @@ export interface IBoilerplateSetup {
     selector: 'materia-addon-boilerplate-setup',
     templateUrl: './addon-setup.component.html',
     styleUrls: ['./addon-setup.component.scss'],
-    providers: []
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class AddonSetupComponent implements OnInit {
-    @Input() app;
-    @Input() settings;
+    @Input() app: IApp;
+    @Input() settings: {name: string};
 
     @Output() save = new EventEmitter<IBoilerplateSetup>();
     @Output() cancel = new EventEmitter<void>();
@@ -30,7 +31,7 @@ export class AddonSetupComponent implements OnInit {
 
     ngOnInit() {
         this.form = new FormGroup({
-            name: new FormControl(this.settings && this.settings.name ? this.settings.name : '', Validators.required)
+            name: new FormControl(this.settings?.name ?? '', Validators.required)
         });
     }
 
